@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: rgba(226, 183, 190, 0.856);
+    font-family: monospace;
+    font-size: 18px;
+    color: rgb(39, 38, 38);
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: rgb(51, 50, 50);
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(170, 166, 166);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.map {
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+table {
+    background-color: rgba(255, 249, 249, 0.808);
+    margin: 20px auto 0;
+}
+
+thead {
+    background-color: rgba(136, 77, 88, 0.76);
+}
+
+tbody {
+    width: 100px;
+    height: 100px;
+}
+
+.table-content:hover {
+    background-color: rgba(201, 199, 199, 0.377);
+    transition: .2s;
+}
+th {
+    padding: 5px
+}
+
+td {
+    padding: 5px;
+}
+
+.btn {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: rgba(241, 240, 240, 0.884);
+    font-family: monospace;
+    font-size: 16px;
+    height: 30px;
+    color: rgb(56, 55, 55);
+    border-radius: 3px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: .4s;
+    background-color: rgb(255, 255, 255);
+
+}
